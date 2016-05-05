@@ -1,0 +1,28 @@
+{
+    "name": "pagewiser/secure-password",
+    "description": "Password security validation library",
+    "keywords": ["security", "validation", "password", "password strength"],
+    "authors": [
+        {
+            "name": "PageWiser",
+            "homepage": "https://www.pagewiser.com"
+        }, {
+            "name": "Martin Malek",
+            "homepage": "http://www.marten-online.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-bcmath": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pagewiser\\Security\\Password\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "license": "MIT"
+}
